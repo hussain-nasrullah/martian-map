@@ -1,0 +1,97 @@
+{
+  "dataset": "usgs_gale_mosaics_site_crop",
+  "crs": "Mars equirectangular, center lon 0, sphere R 3396190 m (as source)",
+  "site_bbox": {
+    "west": 137.3556,
+    "south": -4.8333,
+    "east": 137.4064,
+    "north": -4.7827
+  },
+  "products": {
+    "color": {
+      "file": "gale_hirise_color_25cm_site.tif",
+      "window": {
+        "col_off": 6846,
+        "row_off": 53972,
+        "width": 12045,
+        "height": 11997
+      },
+      "source_size": [
+        36000,
+        76000
+      ],
+      "shape": [
+        3,
+        11997,
+        12045
+      ],
+      "dtype": "uint8",
+      "valid_fraction": 1.0,
+      "min": 0.0,
+      "max": 255.0,
+      "url": "https://asc-pds-services.s3.us-west-2.amazonaws.com/mosaic/Mars/MSL/MSL_Gale_HiRISE-LRGB_78quads_sharp_cog.tif",
+      "page": "https://astrogeology.usgs.gov/search/map/mars_msl_gale_merged_orthophoto_mosaic_25cm",
+      "description": "MSL Gale HiRISE LRGB colour mosaic (78 quads, sharpened), 25 cm/px, cloud-optimised GeoTIFF.",
+      "citation": "USGS Astrogeology Science Center, MSL Gale HiRISE colour mosaic.",
+      "seconds": 246
+    },
+    "dem": {
+      "file": "gale_dem_1m_site.tif",
+      "window": {
+        "col_off": 13718,
+        "row_off": 38712,
+        "width": 3011,
+        "height": 2999
+      },
+      "source_size": [
+        32980,
+        57440
+      ],
+      "shape": [
+        1,
+        2999,
+        3011
+      ],
+      "dtype": "float32",
+      "valid_fraction": 1.0,
+      "min": -3991.899169921875,
+      "max": -3309.968994140625,
+      "url": "https://planetarymaps.usgs.gov/mosaic/Mars/MSL/MSL_Gale_DEM_Mosaic_1m_v3.tif",
+      "page": "https://astrogeology.usgs.gov/search/map/mars_msl_gale_merged_dem_1m",
+      "description": "MSL Gale merged DEM v3, 1 m/px, metres relative to the Mars 2000 sphere datum. HRSC, CTX and HiRISE DEMs tied to MOLA. USGS lists status 'In Work'.",
+      "citation": "Calef, F.J. III and Parker, T., 2016, MSL Gale Merged DEM, PDS Annex, USGS.",
+      "seconds": 519
+    },
+    "ortho": {
+      "file": "gale_ortho_25cm_site.tif",
+      "window": {
+        "col_off": 61854,
+        "row_off": 169316,
+        "width": 12045,
+        "height": 11997
+      },
+      "source_size": [
+        180000,
+        280000
+      ],
+      "method": "per-row HTTP range reads of uncompressed strips",
+      "shape": [
+        1,
+        11997,
+        12045
+      ],
+      "dtype": "uint8",
+      "valid_fraction": 1.0,
+      "min": 1.0,
+      "max": 255.0,
+      "url": "https://asc-pds-services.s3.us-west-2.amazonaws.com/mosaic/MSL_Gale_Orthophoto_Mosaic_25cm_v3.tif",
+      "page": "https://astrogeology.usgs.gov/search/map/mars_msl_gale_merged_orthophoto_mosaic_25cm",
+      "description": "MSL Gale merged orthophoto mosaic v3, 25 cm/px, grayscale. HiRISE where available.",
+      "citation": "Calef, F.J. III and Parker, T., 2016, MSL Gale Merged Orthophoto Mosaic, PDS Annex, USGS.",
+      "seconds": 350
+    }
+  },
+  "retrieved_at": "2026-11-14T07:50:34+00:00",
+  "file_count": 3,
+  "total_bytes": 384841808
+}

@@ -1,0 +1,24 @@
+{
+  "dataset": "THEMIS_NightIR_ControlledMosaics_100m_v2_oct2018",
+  "description": "Mars Odyssey THEMIS night infrared, 100 m controlled mosaic.",
+  "url_template": "https://trek.nasa.gov/tiles/Mars/EQ/THEMIS_NightIR_ControlledMosaics_100m_v2_oct2018/1.0.0/default/default028mm/{z}/{row}/{col}.png",
+  "capabilities": "https://trek.nasa.gov/tiles/Mars/EQ/THEMIS_NightIR_ControlledMosaics_100m_v2_oct2018/1.0.0/WMTSCapabilities.xml",
+  "crs": "urn:ogc:def:crs:EPSG::104905 (Mars equirectangular, degrees)",
+  "tile_size": 256,
+  "zoom_min": 5,
+  "zoom_max": 9,
+  "bbox": {
+    "west": 136.2768,
+    "south": -7.2137,
+    "east": 139.3864,
+    "north": -3.5805
+  },
+  "layout": "{z}/{row}/{col}.png; row 0 at north pole, 2 x 1 tiles at zoom 0",
+  "result_counts": {
+    "cached": 75,
+    "ok": 93
+  },
+  "retrieved_at": "2026-11-14T07:32:33+00:00",
+  "file_count": 168,
+  "total_bytes": 8951794
+}

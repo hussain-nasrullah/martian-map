@@ -1,0 +1,40 @@
+{
+  "dataset": "msl_rad_published_values",
+  "description": "Hand-entered Curiosity RAD (Radiation Assessment Detector) figures from publications. Used by the app's radiation model until a PDS time series is loaded.",
+  "entered": "2026-11-14",
+  "values": {
+    "background_absorbed_dose": {
+      "value": 0.21, "uncertainty": 0.04, "unit": "mGy/day",
+      "source": "Hassler et al. 2014, Science 343, doi 10.1126/science.1244797",
+      "status": "entered from memory; verify against the paper"
+    },
+    "background_dose_equivalent": {
+      "value": 0.64, "uncertainty": 0.12, "unit": "mSv/day",
+      "source": "Hassler et al. 2014, Science 343, doi 10.1126/science.1244797",
+      "status": "entered from memory; verify against the paper"
+    },
+    "storm_2024_05_20_dose": {
+      "value": 8100, "unit": "microgray",
+      "source": "NASA/JPL release, June 2024, 'NASA Missions Witness Massive Solar Storm as It Hits Mars' (via press coverage)",
+      "status": "press figure"
+    },
+    "typical_daily_dose_press": {
+      "value": 700, "unit": "microgray/day (as stated in press)",
+      "source": "Press coverage of the same June 2024 release",
+      "status": "CONFLICT: three times the Hassler 2014 absorbed dose. Possibly a dose equivalent (~0.64 mSv/day) quoted in the wrong unit. Resolve before using as the storm-to-background ratio (8100/210 = 39 days vs 8100/700 = 12 days)."
+    },
+    "terrain_shielding_murray_buttes": {
+      "dose_decrease_percent": 5, "uncertainty_percent": 1,
+      "sky_obstructed_near_butte_percent": 19, "sky_obstructed_reference_percent": 10,
+      "derived_dose_drop_per_unit_extra_sky_hidden": 0.55,
+      "source": "Guo et al. 2021, Geophysical Research Letters, doi 10.1029/2021GL093912",
+      "related": "Ehresmann et al. 2021, JGR Planets: 4% total dose and 7.5% neutral dose decrease, sols 1456-1467",
+      "status": "abstract figures"
+    },
+    "albedo_dose_fraction_flat_terrain": {
+      "value": 0.19, "unit": "fraction of total surface dose",
+      "source": "Guo et al. 2021 (upward albedo radiation on flat terrain)",
+      "status": "abstract figure"
+    }
+  }
+}

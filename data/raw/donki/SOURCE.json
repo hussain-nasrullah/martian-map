@@ -1,0 +1,31 @@
+{
+  "dataset": "nasa_ccmc_donki",
+  "base_url": "https://api.nasa.gov/DONKI/",
+  "window": {
+    "start": "2024-05-19",
+    "end": "2024-05-22"
+  },
+  "api_key": "DEMO_KEY",
+  "endpoints": {
+    "notifications": {
+      "http": 200,
+      "records": 4
+    },
+    "CME": {
+      "http": 200,
+      "records": 19
+    },
+    "SEP": {
+      "http": 200,
+      "records": 0
+    },
+    "IPS": {
+      "http": 200,
+      "records": 0
+    }
+  },
+  "context": "20 May 2024: X12 flare and SEP event; Curiosity RAD recorded its largest dose since landing.",
+  "retrieved_at": "2026-11-14T07:37:32+00:00",
+  "file_count": 4,
+  "total_bytes": 75190
+}

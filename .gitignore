@@ -1,0 +1,13 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# Fetched data: large and reproducible with scripts/data. Provenance files stay tracked.
+data/raw/**
+!data/raw/
+!data/raw/**/
+!data/raw/**/SOURCE.json
+
+# OS
+.DS_Store

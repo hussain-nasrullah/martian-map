@@ -1,0 +1,14 @@
+{
+  "name": "Boxwork ridges, Mount Sharp, Gale Crater",
+  "center": { "lon": 137.381, "lat": -4.808 },
+  "site_bbox": { "west": 137.3556, "south": -4.8333, "east": 137.4064, "north": -4.7827 },
+  "context_bbox": { "west": 136.2768, "south": -7.2137, "east": 139.3864, "north": -3.5805 },
+  "reference_sol": 4600,
+  "storm_window": { "start": "2024-05-19", "end": "2024-05-22" },
+  "mars_radius_m": 3396190,
+  "notes": {
+    "site_bbox": "3 x 3 km analysis box. Leaflet bounds, DEM crop, orthophoto crop and route grid all use this box.",
+    "context_bbox": "Extent of the Trek CTX Gale mosaic. Used for zoomed-out context tiles only.",
+    "coordinates": "Planetocentric latitude, east-positive longitude, degrees."
+  }
+}

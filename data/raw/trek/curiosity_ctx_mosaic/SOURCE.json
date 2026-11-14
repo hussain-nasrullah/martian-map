@@ -1,0 +1,23 @@
+{
+  "dataset": "curiosity_ctx_mosaic",
+  "description": "MRO CTX, Curiosity roving site mosaic. About 41 m/px at z10.",
+  "url_template": "https://trek.nasa.gov/tiles/Mars/EQ/curiosity_ctx_mosaic/1.0.0/default/default028mm/{z}/{row}/{col}.png",
+  "capabilities": "https://trek.nasa.gov/tiles/Mars/EQ/curiosity_ctx_mosaic/1.0.0/WMTSCapabilities.xml",
+  "crs": "urn:ogc:def:crs:EPSG::104905 (Mars equirectangular, degrees)",
+  "tile_size": 256,
+  "zoom_min": 6,
+  "zoom_max": 10,
+  "bbox": {
+    "west": 136.2768,
+    "south": -7.2137,
+    "east": 139.3864,
+    "north": -3.5805
+  },
+  "layout": "{z}/{row}/{col}.png; row 0 at north pole, 2 x 1 tiles at zoom 0",
+  "result_counts": {
+    "cached": 562
+  },
+  "retrieved_at": "2026-11-14T07:31:57+00:00",
+  "file_count": 562,
+  "total_bytes": 21397590
+}

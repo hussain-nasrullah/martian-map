@@ -1,0 +1,24 @@
+{
+  "dataset": "curiosity_hirise_mosaic",
+  "description": "MRO HiRISE, Curiosity roving site mosaic. 0.64 m/px at z16.",
+  "url_template": "https://trek.nasa.gov/tiles/Mars/EQ/curiosity_hirise_mosaic/1.0.0/default/default028mm/{z}/{row}/{col}.png",
+  "capabilities": "https://trek.nasa.gov/tiles/Mars/EQ/curiosity_hirise_mosaic/1.0.0/WMTSCapabilities.xml",
+  "crs": "urn:ogc:def:crs:EPSG::104905 (Mars equirectangular, degrees)",
+  "tile_size": 256,
+  "zoom_min": 12,
+  "zoom_max": 16,
+  "bbox": {
+    "west": 137.3556,
+    "south": -4.8333,
+    "east": 137.4064,
+    "north": -4.7827
+  },
+  "layout": "{z}/{row}/{col}.png; row 0 at north pole, 2 x 1 tiles at zoom 0",
+  "result_counts": {
+    "cached": 490,
+    "ok": 43
+  },
+  "retrieved_at": "2026-11-14T07:31:16+00:00",
+  "file_count": 533,
+  "total_bytes": 23528489
+}

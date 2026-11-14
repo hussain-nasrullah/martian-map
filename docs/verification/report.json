@@ -1,0 +1,23 @@
+{
+  "ortho_nodata_fraction": 0.0,
+  "dem": {
+    "shape": [
+      2999,
+      3011
+    ],
+    "nodata_fraction": 0.0,
+    "elevation_min_m": -3991.9,
+    "elevation_max_m": -3310.0,
+    "rover_stops_compared": 194,
+    "dem_minus_rover_elev_mean_m": -0.0,
+    "dem_minus_rover_elev_std_m": 0.01,
+    "dem_minus_rover_elev_abs_max_m": 0.07
+  },
+  "slope_2m": {
+    "0-10_deg_fraction": 0.391,
+    "10-15_deg_fraction": 0.2119,
+    "15-20_deg_fraction": 0.1377,
+    "20-30_deg_fraction": 0.1552,
+    "30-90_deg_fraction": 0.1041
+  }
+}

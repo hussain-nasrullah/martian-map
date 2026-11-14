@@ -1,0 +1,48 @@
+{
+  "dataset": "msl_curiosity",
+  "sources": {
+    "waypoints.geojson": "https://mars.nasa.gov/mmgis-maps/MSL/Layers/json/MSL_waypoints.json",
+    "traverse.geojson": "https://mars.nasa.gov/mmgis-maps/MSL/Layers/json/MSL_traverse.json",
+    "rems_weather.json": "https://mars.nasa.gov/rss/api/?feed=weather&category=msl&feedtype=json",
+    "raw_images_index.json": "https://mars.nasa.gov/api/v1/raw_image_items/"
+  },
+  "credit": "NASA/JPL-Caltech; raw images NASA/JPL-Caltech/MSSS and NASA/JPL-Caltech/LANL",
+  "waypoints_count": 1389,
+  "waypoints_last_sol": 5073,
+  "rems_sols": 4745,
+  "rems_latest": {
+    "sol": "4995",
+    "earth_date": "2026-08-25"
+  },
+  "site_sol_ranges": [
+    [
+      4332,
+      4752
+    ],
+    [
+      4789,
+      5073
+    ]
+  ],
+  "notes": "REMS feed has blank wind and humidity fields. Raw-image items carry no camera pointing or rover site/drive, so photos are matched to places by sol.",
+  "raw_images": {
+    "rows": 90464,
+    "api_totals_all_sample_types": {
+      "NAV_LEFT_B 4332-4752": 19983,
+      "NAV_LEFT_B 4789-5073": 11520,
+      "MAST_LEFT 4332-4752": 30883,
+      "MAST_LEFT 4789-5073": 23911,
+      "MAST_RIGHT 4332-4752": 24607,
+      "MAST_RIGHT 4789-5073": 18464,
+      "MAHLI 4332-4752": 18125,
+      "MAHLI 4789-5073": 11867,
+      "CHEMCAM_RMI 4332-4752": 6354,
+      "CHEMCAM_RMI 4789-5073": 2699,
+      "FHAZ_LEFT_B 4332-4752": 1974,
+      "FHAZ_LEFT_B 4789-5073": 1576
+    }
+  },
+  "retrieved_at": "2026-11-14T07:41:41+00:00",
+  "file_count": 4,
+  "total_bytes": 22028078
+}
