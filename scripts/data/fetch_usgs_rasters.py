@@ -28,7 +28,7 @@ PRODUCTS = {
         "url": "https://planetarymaps.usgs.gov/mosaic/Mars/MSL/MSL_Gale_DEM_Mosaic_1m_v3.tif",
         "page": "https://astrogeology.usgs.gov/search/map/mars_msl_gale_merged_dem_1m",
         "out": "gale_dem_1m_site.tif",
-        "description": "MSL Gale merged DEM v3, 1 m/px, metres relative to the Mars 2000 sphere datum. "
+        "description": "MSL Gale merged DEM v3, 1 m/px, heights in metres above the Mars areoid (they match Curiosity elev_geoid). "
                        "HRSC, CTX and HiRISE DEMs tied to MOLA. USGS lists status 'In Work'.",
         "citation": "Calef, F.J. III and Parker, T., 2016, MSL Gale Merged DEM, PDS Annex, USGS.",
     },
